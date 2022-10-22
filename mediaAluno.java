@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Main {
+class Media {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     float nota1, nota2, media;
