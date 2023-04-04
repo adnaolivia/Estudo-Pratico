@@ -7,14 +7,18 @@ int volume(int largura1, int altura1, int profundidade1, int largura2, int altur
 }
 int main() {
     int largura1, altura1, profundidade1, largura2, altura2, profundidade2;
+    int q1, q2;
+    printf("informe as medidas do q1: ");
     scanf("%d %d %d", &largura1, &altura1, &profundidade1);
+    printf("informe as medidas do q2: ");
     scanf("%d %d %d"), &largura2, &altura2, &profundidade2;
+    printf("volume total: ");
     printf("%d\n", volume(largura1, altura1, profundidade1, largura2, altura2, profundidade2));
     if (q1 == q2)
-        printf(0);
+        printf("iguais = 0");
     if (q1 > q2)
-        printf(1);
+        printf("q1 eh maior: 1");
     else
-    printf(2);
+    printf("q2 eh maior: 2");
     return 0;
 }
