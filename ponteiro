@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int a = 10, b =20, c=30;
+    int *ponteiro;
+    ponteiro = &b;
+    printf("ponteiro  = %p\n",ponteiro);
+    printf("&b        = %p\n",&b);
+    printf("*ponteiro = %d\n",*ponteiro);
+    ponteiro = ponteiro+1;
+    *ponteiro = 50;
+    printf("a, b, c = %d, %d, %d\n", a,b,c);
+    printf("ponteiro  = %p\n",ponteiro);
+    printf("*ponteiro = %d\n",*ponteiro);
+    return 0;
+}
