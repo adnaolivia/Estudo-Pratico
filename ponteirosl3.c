@@ -8,3 +8,6 @@ int main() {
     printf("%d", x);
     return 0;
 }
+
+
+//alterntiva C
