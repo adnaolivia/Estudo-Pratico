@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    char n;
+    char n[30];
     int i;
     scanf("%s", &n);
     scanf("%d", &i);
